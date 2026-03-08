@@ -1,21 +1,18 @@
 # DecisionLens — Phase 1
 
-This repo currently ships a **static Phase‑1 dashboard layout** (HTML + CSS) with these sections:
+DecisionLens is a **decision intelligence platform**. This Phase‑1 repo provides a **React + Vite + Tailwind** foundation with:
 
-- Market Sessions Panel
-- Market Overview Brain
-- News Intelligence Engine
-- Watchlist Panel
-- On-Chain Monitor
-- Liquidity Map
+- Mock-data-first structure
+- Firebase-ready auth adapter boundary
+- Premium-gated routes
+- Role-aware admin routes
+- Calm, premium dark UI shell
 
-## View locally
-
-- **Option A (quick)**: open `index.html` in your browser
-- **Option B (recommended)**: run a small local server (avoids some browser file restrictions)
+## Run locally
 
 ```bash
-python3 -m http.server 5173
+npm install
+npm run dev
 ```
 
-Then visit `http://localhost:5173`.
+Then open the URL shown in your terminal.
